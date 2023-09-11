@@ -57,9 +57,8 @@ export default function Footer() {
         justify={'center'}
         align={'center'}>
         <Image
-            src="/favicon.png"
-            alt="CSS Logo"
-            width={'145px'}
+            src="https://www.dropbox.com/scl/fi/a9d71gckzvhpw533txx3g/CSS_logo-removebg-preview.png?rlkey=fqcyhbwq2dbmedbh0ocwfey2i&dl=1"            alt="CSS Logo"
+            width={'80px'}
         />  
         <Stack direction={'row'} spacing={6}>
           <Box as="a" href={'#'}>
@@ -89,7 +88,7 @@ export default function Footer() {
           spacing={4}
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
-          <Text>© 2022 Chakra Templates. All rights reserved</Text>
+          <Text>© 2022 Computer Science Society. All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
             <SocialButton label={'Twitter'} href={'#'}>
               <FaTwitter />

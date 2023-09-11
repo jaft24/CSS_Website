@@ -11,7 +11,7 @@ export default function Events() {
 
 
   return (
-    <Box width={'90%'} overflow={'hidden'}>
+    <Box  id="events" width={'90%'} overflow={'hidden'}>
       <PageDivider title="Events"/>  
       <ImageGallery items={images} />
     </Box>

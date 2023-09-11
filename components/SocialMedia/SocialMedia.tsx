@@ -1,23 +1,24 @@
-// import { InstagramEmbed } from "react-social-media-embed";
-// import data from "../../data/data";
+'use client'
 
-// const SocialMedia = () => {
-        
-//     return (
-        
-//         <div style={{ display: "flex", justifyContent: "center" }}>
-//           {data.instagramData.map((item: 
-//              { url: string; maxWidth: number; hideCaption: boolean }, index: number): JSX.Element => 
-//                {  
-//                  return (
-//                      <InstagramEmbed url={item.url} width={item.maxWidth} />
-//                  );
-//            })}
-//         </div>
-        
-//     );
-        
-// }
+import Instagram from "./Instagram";
+import Facebook from "./Facebook";
 
+ 
 
-// export default SocialMedia;
+const SocialMedia = () => {
+
+    return (    
+
+        <>
+
+        <Instagram/>
+
+        <Facebook/>
+
+        </>
+
+    );
+
+}
+
+export default SocialMedia;

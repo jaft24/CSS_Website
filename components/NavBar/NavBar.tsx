@@ -31,9 +31,9 @@ export default function NavBar() {
   const [isDesktop] = useMediaQuery('(min-width: 769px)')
 
   return (
-    <Box>
+    <Box position={'sticky'}>
       <Flex
-        bg={useColorModeValue('white', 'gray.800')}
+            background= "linear-gradient(5deg, white 22%, #540032 23%, white 70% )"
         color={useColorModeValue('gray.600', 'white')}
         minH={'60px'}
         py={{ base: 2 }}
@@ -61,9 +61,10 @@ export default function NavBar() {
 
           <Image
             alignItems={useBreakpointValue({ base: 'center', md: 'left' })}
-            src="/favicon.png"
+            src="https://www.dropbox.com/scl/fi/a9d71gckzvhpw533txx3g/CSS_logo-removebg-preview.png?rlkey=fqcyhbwq2dbmedbh0ocwfey2i&dl=1"
             alt="CSS Logo"
-            width={'145px'}
+            width={'100px'}
+            overflow={"visible"}
             ml={isDesktop? 0: "-60px"}
             />  
           
@@ -88,9 +89,9 @@ export default function NavBar() {
             fontWeight={600}
             color={'maroon'}
             bg={'transparent'}
-            href={'#'}
+            href={'#signUp'}
             _hover={{
-              bg: 'maroon',
+              bg: '#540032',
               color: 'white'
             }}>
             Sign Up
@@ -114,7 +115,7 @@ const DesktopNav = () => {
   const popoverContentBgColor = useColorModeValue('white', 'gray.800')
 
   return (
-    <Stack direction={'row'} spacing={8}>
+    <Stack direction={'row'} spacing={8} color={"white"}>
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
           <Popover trigger={'hover'} placement={'bottom-start'}>
@@ -125,7 +126,7 @@ const DesktopNav = () => {
                 href={navItem.href ?? '#'}
                 fontSize={'sm'}
                 fontWeight={500}
-                color={linkColor}
+                color={"white"}
                 _hover={{
                   textDecoration: 'none',
                   color: linkHoverColor,
@@ -258,42 +259,24 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: 'Inspiration',
-    children: [
-      {
-        label: 'Explore Design Work',
-        subLabel: 'Trending Design to inspire you',
-        href: '#',
-      },
-      {
-        label: 'New & Noteworthy',
-        subLabel: 'Up-and-coming Designers',
-        href: '#',
-      },
-    ],
+    label: 'Home',
+    href: '#'
   },
   {
-    label: 'Find Work',
-    children: [
-      {
-        label: 'Job Board',
-        subLabel: 'Find your dream design job',
-        href: '#',
-      },
-      {
-        label: 'Freelance Projects',
-        subLabel: 'An exclusive list for contract work',
-        href: '#',
-      },
-    ],
+    label: 'Events',
+    href: '#events'
   },
   {
-    label: 'Learn Design',
+    label: 'About Us',
+    href: "/about"
+  },
+  {
+    label: 'Members',
     href: '#',
   },
   {
-    label: 'Hire Designers',
-    href: '#',
+    label: 'Resources',
+    href: '#resources'
   },
 ]
 

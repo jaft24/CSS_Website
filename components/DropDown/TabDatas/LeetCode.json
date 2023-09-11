@@ -1,0 +1,29 @@
+{
+    "LeetCode": [
+      {
+          "title": "LeetCode 75",
+          "link": "https://leetcode.com/studyplan/leetcode-75/",
+          "description": "'LeetCode 75' also known as 'Sort Colors' or 'Dutch National Flag problem,' is a well-known algorithmic problem that falls under the category of array manipulation and sorting. The problem is often used to test a programmer's understanding of array manipulation and two-pointer techniques."
+      },
+      {
+          "title": "30 Days of JavaScript",
+          "link": "https://leetcode.com/studyplan/30-days-of-javascript/",
+          "description": "'30 Days of JavaScript' is a popular programming challenge and learning resource designed to help individuals improve their JavaScript skills over the course of 30 days. This challenge is typically provided as a series of coding exercises and projects that gradually become more complex, covering various aspects of JavaScript programming."
+      },
+      {
+          "title": "SQL 50",
+          "link": "https://leetcode.com/studyplan/top-sql-50/",
+          "description": "SQL is a language used for managing and querying relational databases, and there are various resources available for learning and practicing SQL, including online courses, tutorials, books, and coding exercises. These resources often cover a wide range of SQL concepts, from basic queries and database design to more advanced topics like joins, subqueries, and optimization."
+      },
+      {
+          "title": "Amazon Spring '23 High Frequency",
+          "link": "https://leetcode.com/studyplan/amazon-spring-23-high-frequency/",
+          "description": "Keep in Mind that interview processes may change over time, so it's a good idea to reach out to your Amazon recruiter or HR contact for specific information about the Spring '23 High Frequency interview process and any relevant resources they can provide. Good luck with your interview preparation!"
+      },
+      {
+          "title": "Top Interview 150",
+          "link": "https://leetcode.com/studyplan/top-interview-150/",
+          "description": "'Top Interview 150' refers to a collection of interview questions, it could represent a curated list of 150 commonly asked interview questions for technical roles, job interviews, or admissions interviews at universities. Such collections are often created to help candidates prepare for interviews by providing a comprehensive set of questions that cover various topics and domains"
+      }
+  ]  
+}
