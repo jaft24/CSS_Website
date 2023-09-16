@@ -126,11 +126,11 @@ export default function SignUp() {
             margin={"auto"}
             >
 
-            <Stack spacing={4}>
+            <Stack spacing={4} overflow={'hidden'} alignItems={'center'} justifyContent={'center'}>
 
               {isFormSubmitted ? 
             
-              <Image src='https://www.dropbox.com/scl/fi/hy4josb17fsgpesyfkhob/sent.gif?rlkey=unyrvfx9w0b72f354kdxppzux&dl=1'/> : 
+              <Image height={'26vh'} src='https://www.dropbox.com/scl/fi/hy4josb17fsgpesyfkhob/sent.gif?rlkey=unyrvfx9w0b72f354kdxppzux&dl=1'/> : 
 
               <form ref={form} onSubmit={sendEmail}>
               <HStack>
@@ -161,7 +161,6 @@ export default function SignUp() {
                        name="user_email" 
                        value={email}
                        onChange={handleEmailChange}
-                       style={{ borderColor: isValid ? 'green' : 'red' }}
                        required
                        />
               </FormControl>
