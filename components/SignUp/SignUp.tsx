@@ -104,7 +104,7 @@ export default function SignUp() {
     >
           <Stack  alignItems={{ base: "center", md: ""}} margin={"auto"}>
           <Text mr={{ base: "0px", md: "auto"}}>  Become a Member! </Text> 
-          <Text> Sign Up on our form below so you don't miss all the events we have planned this year. </Text> 
+          <Text> Sign Up on our form below so you don&apos;t miss all the events we have planned this year. </Text> 
           </Stack>
     </Box>
     <Box
