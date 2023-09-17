@@ -21,7 +21,7 @@ export default function Home() {
       <Stack gap={10} padding={10} alignItems={"center"}> 
       <Events />
       </Stack>
-      <SocialMedia />
+      <SocialMedia/>
       <TabsInDropDown />
       <SignUp />
     </>

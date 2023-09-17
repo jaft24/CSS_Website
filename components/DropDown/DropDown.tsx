@@ -408,7 +408,7 @@ const TabsInDropDown = () => {
                 <br/>
               </Text>
               <Text mb="3" mr="4" fontWeight={"bold"} color="black">
-              <li>{item.description}</li>
+              {item.description}
               </Text>
             </Box>
           ))}

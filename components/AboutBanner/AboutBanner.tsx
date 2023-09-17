@@ -23,7 +23,6 @@ export default function AboutBanner() {
   
     return (
       <Box
-        height="100vh"
         width="100%"
         position="relative" 
       >

@@ -1,9 +1,13 @@
 import Data from '../../data/Data';
 import React, { useState } from "react";
 import { InstagramEmbed } from "react-social-media-embed";
-import { SimpleGrid, Button } from '@chakra-ui/react'
+import {Box, Divider, SimpleGrid, Button } from '@chakra-ui/react'
 import PageDivider from '../Utility/PageDivider';
-
+import dynamic from "next/dynamic";
+const DynamicInstagramEmbed = dynamic(
+  () => import("react-social-media-embed").then((module) => module.InstagramEmbed),
+  { ssr: false } // Disable server-side rendering
+);
 const Instagram = () => {
     const intialPosts = 3;
     const [noOfposts, setnoOfPosts] = useState<number>(intialPosts);
@@ -15,23 +19,24 @@ const Instagram = () => {
     const slice = Data.instagramData.slice(0, noOfposts);
     return (
         <>
-               <PageDivider title="Instagram Posts"/> 
-
- <div style={{  display: "flex", padding: "10px", flexWrap: 'wrap' , margin: "auto", alignItems: "center", justifyContent: "center", overflow:"none"}}>
-            <SimpleGrid key={slice.length}  display="flex" alignItems="center" justifyContent={"center"} flexWrap="wrap" margin = "auto" columns = {3} spacing = {20} minChildWidth={370}>
+        <PageDivider title="Instagram"/>
+        <Box style={{  display: "flex", padding: "10px", flexWrap: 'wrap' , margin: "auto", alignItems: "center", justifyContent: "center", overflow:"none", marginTop:"20px"}}>
+            <SimpleGrid display="flex" alignItems="center" justifyContent={"center"} flexWrap="wrap" margin = "auto" columns = {3} spacing = {20} minChildWidth={370}>
             {slice.map((item: { url: string; width: number }, index: number): JSX.Element => {
                 return (
-                   <div style={{ width:"320px", height:"360px", overflow:"hidden", alignItems:'center', justifyContent: 'center'}}>
-                   <InstagramEmbed
+                   <Box key={index} style={{ width:"320px", height:"360px", overflow:"hidden", alignItems:'center', justifyContent: 'center'}}>
+                   <DynamicInstagramEmbed
                      url={item.url}
                      width="320px"
                    />
-                 </div>);
+                 </Box>);
             })}
             </SimpleGrid>
-            </div>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: "10px" }}>
+            </Box>
+            <Box style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: "10px" }}>
             <Button
+                marginTop={"30px"}
+                marginBottom={"20px"}
                 loadingText="Loading..."
                 border="solid 1px maroon"
                 width={"50%"}
@@ -49,7 +54,7 @@ const Instagram = () => {
                 alignSelf={"center"}
                 onClick={() => loadMore()}>{noOfposts >intialPosts ? "Show less" : "Load more"}
             </Button>
-            </div>
+            </Box>
             </>
     )
 }
