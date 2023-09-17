@@ -5,12 +5,10 @@ import NavBar from '../../components/NavBar/NavBar'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <>
      <ChakraProvider>
        <NavBar />
        <Component {...pageProps} />
        <Footer />
       </ChakraProvider>
-    </>
   )
 }

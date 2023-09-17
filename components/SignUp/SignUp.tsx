@@ -104,7 +104,7 @@ export default function SignUp() {
     >
           <Stack  alignItems={{ base: "center", md: ""}} margin={"auto"}>
           <Text mr={{ base: "0px", md: "auto"}}>  Become a Member! </Text> 
-          <Text> Sign Up on our form below so you don't miss all the events we have planned this year. </Text> 
+          <Text> Sign Up on our form below so you don&apos;t miss all the events we have planned this year. </Text> 
           </Stack>
     </Box>
     <Box
@@ -126,11 +126,11 @@ export default function SignUp() {
             margin={"auto"}
             >
 
-            <Stack spacing={4}>
+            <Stack spacing={4} overflow={'hidden'} alignItems={'center'} justifyContent={'center'}>
 
               {isFormSubmitted ? 
             
-              <Image src='https://www.dropbox.com/scl/fi/hy4josb17fsgpesyfkhob/sent.gif?rlkey=unyrvfx9w0b72f354kdxppzux&dl=1'/> : 
+              <Image height={'26vh'} src='https://www.dropbox.com/scl/fi/hy4josb17fsgpesyfkhob/sent.gif?rlkey=unyrvfx9w0b72f354kdxppzux&dl=1'/> : 
 
               <form ref={form} onSubmit={sendEmail}>
               <HStack>
@@ -161,7 +161,6 @@ export default function SignUp() {
                        name="user_email" 
                        value={email}
                        onChange={handleEmailChange}
-                       style={{ borderColor: isValid ? 'green' : 'red' }}
                        required
                        />
               </FormControl>

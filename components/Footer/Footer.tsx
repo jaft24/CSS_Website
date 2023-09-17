@@ -10,7 +10,8 @@ import {
   VisuallyHidden,
   Image
 } from '@chakra-ui/react'
-import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaAddressBook, FaBatteryQuarter, FaFacebook, FaInstagram, FaLinkedin, FaTeamspeak, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { PiMicrosoftTeamsLogoFill } from 'react-icons/pi'
 import { ReactNode } from 'react'
 
 const SocialButton = ({
@@ -64,14 +65,17 @@ export default function Footer() {
           <Box as="a" href={'#'}>
             Home
           </Box>
-          <Box as="a" href={'#'}>
-            About
+          <Box as="a" href={'#events'}>
+            Events
+          </Box>
+          <Box as="a" href={'/about'}>
+            About Us
           </Box>
           <Box as="a" href={'#'}>
-            Blog
+            Members
           </Box>
-          <Box as="a" href={'#'}>
-            Contact
+          <Box as="a" href={'#resources'}>
+            Resources
           </Box>
         </Stack>
       </Container>
@@ -90,14 +94,17 @@ export default function Footer() {
           align={{ base: 'center', md: 'center' }}>
           <Text>© 2022 Computer Science Society. All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'Twitter'} href={'#'}>
-              <FaTwitter />
-            </SocialButton>
-            <SocialButton label={'YouTube'} href={'#'}>
-              <FaYoutube />
-            </SocialButton>
-            <SocialButton label={'Instagram'} href={'#'}>
+          <SocialButton label={'Instagram'} href={'https://www.instagram.com/cordcsse/'}>
               <FaInstagram />
+            </SocialButton>
+            <SocialButton label={'LinkedIn'} href={'#'}>
+              <FaLinkedin />
+            </SocialButton>
+            <SocialButton label={'Facebook'} href={'https://www.facebook.com/CordCSSE/'}>
+              <FaFacebook />
+            </SocialButton>
+            <SocialButton label={'Ms Teams'} href={'https://teams.microsoft.com/l/team/19%3a7UPnh3f00BNPEjpAlOMYklCTSrSXZYpNdsjUulhfbik1%40thread.tacv2/conversations?groupId=deb3da0b-1f96-438f-8861-88b41f3385d1&tenantId=4881a8fa-b252-4912-b93a-7806c41bbe91'}>
+              <PiMicrosoftTeamsLogoFill />
             </SocialButton>
           </Stack>
         </Container>
