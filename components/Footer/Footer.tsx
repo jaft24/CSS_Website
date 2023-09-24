@@ -62,19 +62,19 @@ export default function Footer() {
             width={'80px'}
         />  
         <Stack direction={'row'} spacing={6}>
-          <Box as="a" href={'#'}>
+          <Box as="a" href={'/'}>
             Home
           </Box>
-          <Box as="a" href={'#events'}>
+          <Box as="a" href={'/#events'}>
             Events
           </Box>
           <Box as="a" href={'/about'}>
             About Us
           </Box>
-          <Box as="a" href={'#'}>
+          <Box as="a" href={'/about#members'}>
             Members
           </Box>
-          <Box as="a" href={'#resources'}>
+          <Box as="a" href={'/#resources'}>
             Resources
           </Box>
         </Stack>

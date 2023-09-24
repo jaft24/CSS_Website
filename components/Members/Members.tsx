@@ -14,9 +14,9 @@ const Members = () => {
     };
     const slice = data.cardData.slice(0, noOfMembers);
     return (
-    <>
-    <PageDivider title="Meet the Team"/>
-    <Box>
+      <Box id="members">
+      <PageDivider title="Meet the Team"/>
+    <Box id="members">
           <Box className="d-flex flex-wrap justify-content-center align-items-center">
             {slice.map((item, index) => {
               const isFirstMember = index % 2 === 0;
@@ -64,7 +64,7 @@ const Members = () => {
             </Button>
           </Box>
         </Box>
-        </>
+        </Box>
       );
     };
     
