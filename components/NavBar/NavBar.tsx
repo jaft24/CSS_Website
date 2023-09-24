@@ -89,7 +89,7 @@ export default function NavBar() {
             fontWeight={600}
             color={'maroon'}
             bg={'transparent'}
-            href={'#signUp'}
+            href={'/#signUp'}
             _hover={{
               bg: '#540032',
               color: 'white'
@@ -260,11 +260,11 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: 'Home',
-    href: '#'
+    href: '/'
   },
   {
     label: 'Events',
-    href: '#events'
+    href: '/#events'
   },
   {
     label: 'About Us',
@@ -272,11 +272,11 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: 'Members',
-    href: '#',
+    href: '/about#members',
   },
   {
     label: 'Resources',
-    href: '#resources'
+    href: '/#resources'
   },
 ]
 
