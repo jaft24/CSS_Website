@@ -22,8 +22,8 @@ export default function About() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <AboutBanner />
-      <Members />
       <Values />
+      <Members />
       <ContactUs />
 
       

@@ -24,7 +24,7 @@ const Members = () => {
                 <>
                 <Box style={{padding: "30px", flexWrap: 'wrap' , margin: "auto", alignItems: "center", justifyContent: "center"}}>
                     <Flex key={index} gap="2.5%" direction={{ base: "column", md: isFirstMember ? "row" : "row-reverse" }}  paddingX="30px" paddingY="6px" margin="auto" maxWidth="100%" >
-                        <Image src={item.img} alt={item.name} boxSize="20%" maxW="100%" minW="200px" style={{padding: "15px", border: "0px solid #ddd", boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)", borderRadius: "10px", background: "linear-gradient(115deg, white 22%, #A24857 23%, white 70% )", marginBottom:"10px" }}/>
+                        <Image src={item.img} alt={item.name} boxSize="20%" maxW="100%" minW="200px" style={{padding: "15px", transform:"scale(0.8)", border: "0px solid #ddd", boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)", borderRadius: "10px", background: "linear-gradient(115deg, white 22%, #A24857 23%, white 70% )", marginBottom:"10px" }}/>
                             <Box gap="20px" flex="60%" paddingRight="5%" marginTop={"10px"}>
                                 <Text fontSize="1.25rem" fontFamily="monospace" fontWeight="bold">{item.title}</Text>
                                   <Text fontFamily="Lucida Console">{item.name}</Text>

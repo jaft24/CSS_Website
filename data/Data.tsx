@@ -196,49 +196,49 @@ Data = {
 
         {
 
-        id: 1,
+            id: 1,
 
-        img: "/JaletaTesgera.jpg",
+            img: "https://www.dropbox.com/scl/fi/403w1yyh9y3ew6b934noc/jaleta_tesgera.jpg?rlkey=inonmqklll17lj4cocmy9fndp&dl=1",
 
-        title: "President of Computer Science Society",
+            title: "President of Computer Science Society",
 
-        name: "Jaleta Tesgera",
+            name: "Jaleta Tesgera",
 
-        desc:
+            desc:
 
-            "Hello there everybody, My name is Jaleta Tesgera and I am senior eager to jump into the professional software engineering side of Computer Science. I grew up in Ethiopia, always very interested in computer science. My motivation for this club is to help you guys develop a better understanding of computer science industry. I can't wait to restart the computer science club and have fun with you guys."
+                "Hello there everybody, My name is Jaleta Tesgera and I am senior eager to jump into the professional software engineering side of Computer Science. I grew up in Ethiopia, always very interested in computer science. My motivation for this club is to help you guys develop a better understanding of computer science industry. I can't wait to restart the computer science club and have fun with you guys."
+
+            },
+
+        {
+
+            id: 2,
+
+            img: "https://www.dropbox.com/scl/fi/lri1r2f1ktqsad3tfg2x3/Lau_upper.jpeg?rlkey=gcgae5ll5z9586rhb4nzex1px&dl=1",
+
+            title: "Vice President of Computer Science Society",
+
+            name: "Lauricenia Buque",
+
+            desc:
+
+                "Hey there! I'm Lauricenia, a Class of 2026 student. I was born and raised in Mozambique, a Southern African country. Prior to Concordia College, I completed the IB program in Japan, where I was first introduced to the world of Computer Science. I love the idea of solving problems, designing, and creating ideas. When I'm not studying, I'm listening to music, on a call with family, singing, praising the Lord, or learning random things on YouTube. It will be a pleasure to serve you as the club's vice president. I believe collaboration is key; no one knows more than anyone else, and we can complete each other's ideas, growing together!"
 
         },
 
         {
 
-        id: 2,
+            id: 3,
 
-        img: "/LauriceniaBuque.jpg",
+            img: "https://www.dropbox.com/scl/fi/rlsrvs2alakzff36bxst1/Segni_upper.jpeg?rlkey=7bcymznbjy27o7dzuiyep6h3v&dl=1",
 
-        title: "Vice President of Computer Science Society",
+            title: "Project Manager of Computer Science Society",
 
-        name: "Lauricenia Buque",
+            name: "Segni Tulu",
 
-        desc:
+            desc:
 
-            "Hey there! I'm Lauricenia, a Class of 2026 student. I was born and raised in Mozambique, a Southern African country. Prior to Concordia College, I completed the IB program in Japan, where I was first introduced to the world of Computer Science. I love the idea of solving problems, designing, and creating ideas. When I'm not studying, I'm listening to music, on a call with family, singing, praising the Lord, or learning random things on YouTube. It will be a pleasure to serve you as the club's vice president. I believe collaboration is key; no one knows more than anyone else, and we can complete each other's ideas, growing together!"
-
-        },
-
-        {
-
-        id: 3,
-
-        img: "/SegniTulu.jpg",
-
-        title: "Project Manager of Computer Science Society",
-
-        name: "Segni Tulu",
-
-        desc:
-
-            "My name is Segni Tulu and I am a Junior. I am dedicated and passionate member of our organization. I have quite the experience in computer science and bring a wealth of knowledge and expertise to our team."
+                "My name is Segni Tulu and I am a Junior. I am dedicated and passionate member of our organization. I have quite the experience in computer science and bring a wealth of knowledge and expertise to our team."
 
         }
 
@@ -246,59 +246,59 @@ Data = {
 
         {
 
-        id: 4,
+            id: 4,
 
-        img: "/BrookGebreeyesus.jpg",
+            img: "https://www.dropbox.com/scl/fi/f2p2hnjdzleazxj2m1auj/brook_upper.jpeg?rlkey=85nxxoufy2vl4v42j1uo6r959&dl=1",
 
-        name: "Brook Gebreeyesus",
+            name: "Brook Gebreeyesus",
 
-        title: "Project Manager of Computer Science Society",
+            title: "Project Manager of Computer Science Society",
 
-        desc:
+            desc:
 
-            "My name is Brook Gebreeyesus and I am senior. I am committed to  driving community engagement, spearheading new projects, or mentoring fellow members. I am also very dedicated and positive attitude make [him/her] a valuable asset to our organization."
-
-        },
-
-        {
-
-        id: 5,
-
-        img: "/BrookGebreeyesus.jpg",
-
-        name: "Neil Magambo",
-
-        title: "Secretary of Computer Science Society",
-
-        desc:
-
-            "Howdy, I'm Neil Magambo! A Dutch start with a Tanzanian finish, like a fine blended coffee. At 20, I've got the hands for boxing, the feet for basketball, and the brains for machine learning. I'm the whole package—plus international shipping!"
+                "My name is Brook Gebreeyesus and I am senior and a computer science major with a computing concentration. I am committed to driving community engagement, spearheading new projects, or mentoring fellow members. In my free time I enjoy playing soccer and hanging out with my family and friends."
 
         },
 
         {
 
-        id: 6,
+            id: 5,
 
-        img: "/BrookGebreeyesus.jpg",
+            img: "https://www.dropbox.com/scl/fi/5xske2rbyr1wcm50ldt6g/Neil_face.jpeg?rlkey=ewm9sj61x7mt90tpsfg83k2yz&dl=1",
 
-        name: "Nathan Kraft",
+            name: "Neil Magambo",
 
-        title: "Treasurer of Computer Science Society",
+            title: "Secretary of Computer Science Society",
 
-        desc:
+            desc:
 
-            "I am a senior with majors in Computer Science and Mathematics with minor in music. In my free time I enjoy playing video games and playing my Saxophone. This semester is going to be fun for everyone. We have a lot of stuff planned and hope you enjoy them all. "
+                "Howdy, I'm Neil Magambo! A Dutch start with a Tanzanian finish, like a fine blended coffee. At 20, I've got the hands for boxing, the feet for basketball, and the brains for machine learning. I'm the whole package—plus international shipping!"
 
         },
+
+        {
+
+            id: 6,
+
+            img: "https://www.dropbox.com/scl/fi/2ssw2acl3z001gsg1nwgh/nathan_upper.jpeg?rlkey=aqsdtzzfuqkfnj6zt76rt4rvz&dl=1",
+
+            name: "Nathan Kraft",
+
+            title: "Treasurer of Computer Science Society",
+
+            desc:
+
+                "I am a senior with majors in Computer Science and Mathematics with minor in music. In my free time I enjoy playing video games and playing my Saxophone. This semester is going to be fun for everyone. We have a lot of stuff planned and hope you enjoy them all. "
+
+            },
 
         {
 
             id: 7,
 
-            img: "/BrookGebreeyesus.jpg",
+            img: "https://www.dropbox.com/scl/fi/cijamn6rvjxjog6y4u8wy/Ye_upper.jpeg?rlkey=h8xorb85pqq0d9kugejkcr76w&dl=1",
 
-            name: "Ye Yin",
+            name: "Ye Yint Win",
 
             title: "Marketing and Media Manager of Computer Science Society",
 
