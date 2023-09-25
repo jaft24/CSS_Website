@@ -19,7 +19,7 @@ const Instagram = () => {
     const slice = Data.instagramData.slice(0, noOfposts);
     return (
         <>
-        <PageDivider title="Instagram"/>
+        <PageDivider title="Instagram Posts"/>
         <Box style={{  display: "flex", padding: "10px", flexWrap: 'wrap' , margin: "auto", alignItems: "center", justifyContent: "center", overflow:"none", marginTop:"20px"}}>
             <SimpleGrid display="flex" alignItems="center" justifyContent={"center"} flexWrap="wrap" margin = "auto" columns = {3} spacing = {20} minChildWidth={370}>
             {slice.map((item: { url: string; width: number }, index: number): JSX.Element => {
