@@ -33,7 +33,7 @@
     "react-simple-typewriter": "^5.0.1",
     "react-slick": "^0.29.0",
     "react-social-media-embed": "^2.3.5",
-    "sass": "^1.66.1",
+    "sass": "^1.79.0",
     "typescript": "5.1.6"
   },
   "devDependencies": {
